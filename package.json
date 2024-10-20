@@ -1,0 +1,15 @@
+{
+  "name": "courses-node",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MirikSenkevich/Courses-Node.js.git"
+  },
+  "author": "Senkevich Miroslav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
