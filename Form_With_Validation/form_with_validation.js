@@ -10,7 +10,7 @@ function form1(values, errors)
     return`
     ${errors ? "есть ошибки, исправьте!" : ""}
     <form action='/send'>
-      <span>${errors?.familiya||""}</span> <br>   
+      <span>${errors?.familiya}</span> <br>   
       фамилия: <input type=text name=familiya value="${removeHTML(values.familiya)}"> <br>
       <span>${errors?.imya||""}</span> <br>  
       имя: <input type=text name=imya value="${removeHTML(values.imya)}"> <br>
