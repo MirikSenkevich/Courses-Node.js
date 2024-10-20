@@ -12,9 +12,9 @@ function form1(values, errors)
     <form action='/send'>
       <span>${errors && errors.familiya||""}</span> <br>   
       фамилия: <input type=text name=familiya value="${removeHTML(values.familiya)}"> <br>
-      <span>${errors?.imya||""}</span> <br>  
+      <span>${errors && errors.imya||""}</span> <br>  
       имя: <input type=text name=imya value="${removeHTML(values.imya)}"> <br>
-      <span>${errors?.otchestvo||""}</span> <br>   
+      <span>${errors && errors?.otchestvo||""}</span> <br>   
       отчество: <input type=text name=otchestvo value="${removeHTML(values.otchestvo)}"> <br>
       <input type=submit value=заполнить>
     </form>
