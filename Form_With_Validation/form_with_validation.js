@@ -52,7 +52,6 @@ function escapeHTML(text)
 
 webserver.get("/form", (req,res)=>
 {
-    console.log(`form called, req.originalUrl=${req.originalUrl}`);
     req.query.familiya='';
     req.query.imya='';
     req.query.otchestvo='';
